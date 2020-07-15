@@ -1,0 +1,4 @@
+{
+    "port": 4000,
+    "mongoUri": "mongodb+srv://cookUser:1234zxcv@cluster0.kfaet.azure.mongodb.net/app?retryWrites=true&w=majority"
+}
