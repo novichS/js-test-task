@@ -13,10 +13,14 @@ const schema = new Schema({
         type: Array,
         required: true
     },
+    description: {
+        type: String,
+        required: true
+    },
     oldRecipe: {
         type: Array,
         required: false
     },
 })
 
-model.exports = model('Recipe', schema)
+module.exports = model('Recipe', schema)
