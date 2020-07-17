@@ -1,6 +1,10 @@
 const { Schema, model } = require('mongoose');
 
 const schema = new Schema({
+    id: {
+        type: Number,
+        required: false
+    },
     date: {
         type: String,
         required: true
@@ -10,10 +14,6 @@ const schema = new Schema({
         required: true
     },
     ingredients: {
-        type: Array,
-        required: true
-    },
-    description: {
         type: String,
         required: true
     },
@@ -23,8 +23,10 @@ const schema = new Schema({
     },
     isToggled: {
         type: Boolean,
-        required: true
+        required: false
     }
+}, {
+        timestamps: false,
 })
 
 module.exports = model('Recipe', schema)
