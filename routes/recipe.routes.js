@@ -24,6 +24,7 @@ router.post("/add", async (req, res) => {
             ingredients,
             description,
             oldRecipe,
+            isToggled: false
         });
 
         await recipe.save();

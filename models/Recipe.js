@@ -21,6 +21,10 @@ const schema = new Schema({
         type: Array,
         required: false
     },
+    isToggled: {
+        type: Boolean,
+        required: true
+    }
 })
 
 module.exports = model('Recipe', schema)
