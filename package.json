@@ -1,0 +1,42 @@
+{
+  "name": "js-test-task",
+  "version": "1.0.0",
+  "description": "cook-book-app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svasyanovych/js-test-task.git"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "redux"
+  ],
+  "author": "Svitlana Vasianovych <svitlana.v92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svasyanovych/js-test-task/issues"
+  },
+  "homepage": "https://github.com/svasyanovych/js-test-task#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.19.2",
+    "config": "^3.3.1",
+    "delete": "^1.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
