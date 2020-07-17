@@ -1,0 +1,22 @@
+.app {
+    text-align: center;
+    background-color: rgb(248, 203, 246);
+}
+
+.main {
+    margin: 0 auto;
+    width: 90%;
+    min-width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    box-shadow: 0 0 4px #d500f9;
+}
+
+.section {
+    width: 45%;
+    min-width: 400px;
+    height: auto;
+    box-shadow: 0 0 4px #d500f9;
+    margin: 20px;
+}
