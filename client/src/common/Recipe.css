@@ -12,12 +12,14 @@
     font-size: 0.7em;
     color: #d500f9;
     margin-left: 10px;
+    padding-bottom: 15px;
 }
 
-#oldRecipe {
+#oldRecipes {
     background-color: #ff80ab;
     color: white;
     margin-left: 10px;
+    padding-top: 0px;
 }
 
 .focusRecipe {
@@ -43,7 +45,6 @@
 }
 
 .recipeName {
-    padding: 13px 0 13px 0;
     margin-left: 15px;
     display: flex;
     font-size: 1.1em;

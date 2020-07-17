@@ -43,7 +43,7 @@ export const RecipeList = (props) => {
                 <h6 className="recipeName">{name}
                     {oldRecipe.length > 0 &&
                         <p id="updated">
-                            <span id="oldRecipe">{oldRecipe.length}</span>
+                            <span id="oldRecipes">{oldRecipe.length}</span>
                         </p>
                     }
                 </h6>
