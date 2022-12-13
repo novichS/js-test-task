@@ -29,7 +29,7 @@
     "axios": "^0.19.2",
     "config": "^3.3.1",
     "delete": "^1.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.9.24",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
